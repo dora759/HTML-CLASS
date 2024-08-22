@@ -1,0 +1,132 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(0, 0, 0);
+    align-items: center;
+    font-family: "Cutive Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+      }
+      
+.container{
+    width: 20em;
+    background-color: rgb(255, 255, 255);
+    overflow: hidden;
+    border-radius: 2em;
+    text-align: center;
+    font-size: 5em;
+}
+.user-image{
+    padding: 3em 0;
+    background-image: linear-gradient(70deg, #61A1DD, #0083FD);
+}
+.user-image img{
+    width: 7em;
+    height: 7em;
+    border-radius: 50%;
+    box-shadow: 0 0.6em 1.8em;
+    object-fit: cover;
+}
+.name{
+    font-size: 1.5em;
+
+}
+.userName{
+    font-size: 1em;
+    color: #9e9e9e;
+}
+.links{
+    display: flex;
+    justify-content: center;
+    margin: 1.5em 0;
+
+}
+
+a{
+    text-decoration: none;
+    color: #565656;
+    transition: all 0.3s;
+    font-size: 2em;
+    margin-right: 1.2em;
+} 
+a:last-child{
+    margin: 0;
+}
+.Facebook:hover{
+    color: rgb(4, 0, 255);
+    transform: scale(2, 2);
+}
+.Twitter:hover{
+    color: rgb(red, green, blue);
+    transform: scale(2, 2);
+}
+.GitHub:hover{
+    transform: scale(2, 2);
+}
+.LinkedIn:hover{
+    transform: scale(2, 2);
+}
+.Instagram:hover{
+    transform: scale(2, 2);
+}
+.details{
+    margin-bottom: 1.8em;
+}
+.hover-icon{
+    background-image: none;
+    cursor: pointer;
+    padding: 0.5em 1em ;
+    color: rgb(48, 41, 41);
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 20%;
+    background-image: linear-gradient(60deg, #0083FD, #61A1DD);
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    border-radius: 5em;
+    overflow: hidden;
+
+}
+.hover-icon:hover{
+    background-image: url('./thumbs\ Up.png');
+    background-size: cover;
+    color: transparent; 
+    background-size: 50%;
+
+}
+
+.hover-icon2{
+    background-image: none;
+    cursor: pointer;
+    padding: 0.5em 1em ;
+    color: rgb(48, 41, 41);
+    text-decoration: none;
+    text-transform: capitalize;
+    width: 20%;
+    background-image: linear-gradient(60deg, #0cc20c, #61A1DD);
+    font-size: 1.2em;
+    padding: 0.5em 1em;
+    border-radius: 1em;
+    overflow: hidden;
+    object-fit: scale-down;
+}
+
+.hover-icon2:hover{
+    background-image: url('./mail.png');
+    background-size: cover;
+    color: transparent; 
+    background-size: 50%;
+
+}
+
+.space{
+    height: 3em;
+
+}
